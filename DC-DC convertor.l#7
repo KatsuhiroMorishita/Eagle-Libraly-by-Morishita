@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MS10(10PIN,MSOP)">
+<description>&lt;hr&gt;
+&lt;b&gt;MS10 package ; MSOP 10Pin (0.5pitch)&lt;/b&gt;
+&lt;hr&gt;</description>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<circle x="-1" y="1" radius="0.2828" width="0.127" layer="21"/>
+<smd name="3" x="-2.2" y="0" dx="1" dy="0.3" layer="1"/>
+<smd name="2" x="-2.2" y="0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="1" x="-2.2" y="1" dx="1" dy="0.3" layer="1"/>
+<smd name="4" x="-2.2" y="-0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="5" x="-2.2" y="-1" dx="1" dy="0.3" layer="1"/>
+<smd name="8" x="2.2" y="0" dx="1" dy="0.3" layer="1"/>
+<smd name="9" x="2.2" y="0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="10" x="2.2" y="1" dx="1" dy="0.3" layer="1"/>
+<smd name="7" x="2.2" y="-0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="6" x="2.2" y="-1" dx="1" dy="0.3" layer="1"/>
+<text x="-1.5" y="-2.9" size="1.27" layer="21" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="MS8(8PIN,MSOP)">
+<description>&lt;hr&gt;
+&lt;b&gt;MS8 package ; MSOP 8Pin ( 0.65mm pitch)&lt;/b&gt;
+&lt;hr&gt;</description>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<circle x="-1" y="1" radius="0.2236" width="0.127" layer="21"/>
+<smd name="1" x="-2.5" y="0.975" dx="1.2" dy="0.4" layer="1"/>
+<smd name="2" x="-2.5" y="0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="3" x="-2.5" y="-0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="4" x="-2.5" y="-0.975" dx="1.2" dy="0.4" layer="1"/>
+<smd name="8" x="2.5" y="0.975" dx="1.2" dy="0.4" layer="1"/>
+<smd name="7" x="2.5" y="0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="6" x="2.5" y="-0.325" dx="1.2" dy="0.4" layer="1"/>
+<smd name="5" x="2.5" y="-0.975" dx="1.2" dy="0.4" layer="1"/>
+<text x="-2.54" y="1.778" size="1.27" layer="21" font="vector" ratio="13">&gt;NAME</text>
+</package>
+<package name="TPS61200-STRAWBERRY-LINUX">
+<description>Strawberry-linux&lt;br&gt;
+DC-DC convertor module
+&lt;br&gt;
+&lt;b&gt;TPS61200&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://strawberry-linux.com/catalog/items?code=12010"&gt;link&lt;/a&gt;</description>
+<pad name="VIN+" x="0" y="0" drill="0.8"/>
+<pad name="VIN-" x="10.16" y="0" drill="0.8"/>
+<pad name="VOUT-" x="10.16" y="15.24" drill="0.8"/>
+<pad name="VOUT+" x="0" y="15.24" drill="0.8"/>
+<polygon width="0.254" layer="39">
+<vertex x="0" y="15.24"/>
+<vertex x="10.16" y="15.24"/>
+<vertex x="10.16" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.254" layer="43">
+<vertex x="1.27" y="0"/>
+<vertex x="0" y="1.27"/>
+<vertex x="0" y="13.97"/>
+<vertex x="1.27" y="15.24"/>
+<vertex x="8.89" y="15.24"/>
+<vertex x="10.16" y="13.97"/>
+<vertex x="10.16" y="1.27"/>
+<vertex x="8.89" y="0"/>
+</polygon>
+<wire x1="11.43" y1="16.51" x2="11.43" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="16.51" x2="11.43" y2="16.51" width="0.127" layer="21"/>
+<text x="-1.27" y="16.51" size="1.27" layer="21">VOUT+</text>
+<text x="6.35" y="16.51" size="1.27" layer="21">VOUT-</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="21">VIN+</text>
+<text x="7.62" y="-2.54" size="1.27" layer="21">VIN-</text>
+<text x="1.27" y="1.27" size="1.27" layer="21" rot="R90">Strawberry-linux</text>
+<text x="5.08" y="0" size="1.27" layer="21" rot="R90">TPS61200 module</text>
+</package>
+<package name="LM2375-STRAWBERRY-LINUX">
+<description>Strawberry-linux&lt;br&gt;
+DC-DC convertor module
+&lt;br&gt;
+&lt;b&gt;LM2735&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://strawberry-linux.com/catalog/items?code=12004"&gt;link&lt;/a&gt;</description>
+<pad name="P$1" x="0" y="0" drill="0.8"/>
+<pad name="P$2" x="10.16" y="0" drill="0.8"/>
+<pad name="P$3" x="0" y="17.78" drill="0.8"/>
+<pad name="P$4" x="10.16" y="17.78" drill="0.8"/>
+<wire x1="-1.27" y1="19.05" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="11.43" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-1.27" x2="11.43" y2="19.05" width="0.127" layer="21"/>
+<wire x1="11.43" y1="19.05" x2="-1.27" y2="19.05" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="0" y="0"/>
+<vertex x="0" y="17.78"/>
+<vertex x="10.16" y="17.78"/>
+<vertex x="10.16" y="0"/>
+</polygon>
+<polygon width="0.127" layer="43">
+<vertex x="1.27" y="17.78"/>
+<vertex x="8.89" y="17.78"/>
+<vertex x="10.16" y="16.51"/>
+<vertex x="10.16" y="0"/>
+<vertex x="10.16" y="1.27"/>
+<vertex x="8.89" y="0"/>
+<vertex x="1.27" y="0"/>
+<vertex x="0" y="1.27"/>
+<vertex x="0" y="16.51"/>
+</polygon>
+<text x="1.27" y="2.54" size="1.27" layer="21" rot="R90">Strawberry-linux</text>
+<text x="5.08" y="1.27" size="1.27" layer="21" rot="R90">LM2735 module</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="21">Vin+</text>
+<text x="7.62" y="-2.54" size="1.27" layer="21">GND</text>
+<text x="7.62" y="19.05" size="1.27" layer="21">Vout+</text>
+<text x="-1.27" y="19.05" size="1.27" layer="21">Shutdown</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LTC3440">
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="-10.16" size="1.27" layer="97">LTC3440</text>
+<text x="-2.54" y="-12.7" size="1.27" layer="95">&gt;NAME</text>
+<pin name="SW1" x="-17.78" y="5.08" length="middle"/>
+<pin name="VIN" x="-17.78" y="2.54" length="middle"/>
+<pin name="SHDN/SS" x="-17.78" y="0" length="middle"/>
+<pin name="MODE/SYNC" x="-17.78" y="-2.54" length="middle"/>
+<pin name="RT" x="-17.78" y="-5.08" length="middle"/>
+<pin name="GND" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="VC" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="FB" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="VOUT" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SW2" x="17.78" y="5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="LTC1877">
+<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="5.08" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-25.4" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="SYNC/MODE" x="-15.24" y="5.08" length="short"/>
+<pin name="VIN" x="-15.24" y="0" length="short"/>
+<pin name="RUN" x="-15.24" y="-15.24" length="short"/>
+<pin name="I_TH" x="-15.24" y="-17.78" length="short"/>
+<pin name="GND" x="0" y="-22.86" length="short" rot="R90"/>
+<pin name="VFB" x="15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="SW" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="PLL-LPF" x="15.24" y="0" length="short" rot="R180"/>
+</symbol>
+<symbol name="TPS61200-STRAWBERRY-LINUX">
+<pin name="VIN+" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr" swaplevel="1"/>
+<pin name="VIN-" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr" swaplevel="1"/>
+<pin name="VOUT-" x="12.7" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VOUT+" x="12.7" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="LM273.5-STRAWBERRY-LINUX">
+<pin name="VIN+" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr" swaplevel="1"/>
+<pin name="GND" x="0" y="-10.16" visible="pin" length="short" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="VOUT+" x="12.7" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTC3440" prefix="P">
+<description>&lt;hr&gt;
+&lt;b&gt;LTC3440 DC-DC converter&lt;/b&gt;
+&lt;hr&gt;
+UP and Down  DC-DC converter.&lt;br&gt;
+Producted by LINEAR TECHNOLOGY.Co</description>
+<gates>
+<gate name="G$1" symbol="LTC3440" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MS10(10PIN,MSOP)">
+<connects>
+<connect gate="G$1" pin="FB" pad="9"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="MODE/SYNC" pad="2"/>
+<connect gate="G$1" pin="RT" pad="1"/>
+<connect gate="G$1" pin="SHDN/SS" pad="8"/>
+<connect gate="G$1" pin="SW1" pad="3"/>
+<connect gate="G$1" pin="SW2" pad="4"/>
+<connect gate="G$1" pin="VC" pad="10"/>
+<connect gate="G$1" pin="VIN" pad="7"/>
+<connect gate="G$1" pin="VOUT" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC1877" prefix="U">
+<gates>
+<gate name="G$1" symbol="LTC1877" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MSOP" package="MS8(8PIN,MSOP)">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="I_TH" pad="2"/>
+<connect gate="G$1" pin="PLL-LPF" pad="8"/>
+<connect gate="G$1" pin="RUN" pad="1"/>
+<connect gate="G$1" pin="SW" pad="5"/>
+<connect gate="G$1" pin="SYNC/MODE" pad="7"/>
+<connect gate="G$1" pin="VFB" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS61200-STRAWBERRY-LINUX" prefix="P">
+<description>Strawberry-linux&lt;br&gt;
+DC-DC convertor module
+&lt;br&gt;
+&lt;b&gt;TPS61200&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://strawberry-linux.com/catalog/items?code=12010"&gt;link&lt;/a&gt;
+&lt;br&gt;
+
+&lt;img src="https://strawberry-linux.com/thumb/tps61200-g.jpg"&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Summary by WEB&lt;/b&gt;
+&lt;p&gt;
+０．３Ｖでも動作できる超低電圧DC-DCコンバータ
+■テキサス・インスツルメンツのTPS61200を搭載した低電圧動作のDC-DCコンバータです。 
+■TPS61200はテキサス・インスツルメンツの製品の中で最も低い電圧で動作するDC-DCコンバータです。 
+■動作可能電圧が０．３Ｖときわめて低いため（起動電圧約０．４Ｖ）太陽電池をはじめとした新エネルギーでの動作が可能になりました。 
+■１セルの太陽電池（起電力約０．５Ｖ）や振動・廃熱などの微弱な新エネルギー源に特に適します。 
+■もちろん乾電池１本～３本での動作にも適しています。 
+■携帯機器などの電源、微弱無線機器、へき地での電力確保，リモコンなどの無電源化，ＬＥＤの点灯などにいかがでしょうか？ 
+■出力電圧はディジタル回路の電源に適した３．３Ｖ／５．０Ｖに設計 
+■基本は昇圧型ですが、出力電圧よりも入力が高くなると自動的に降圧レギュレータとして動作するダウン・コンバーション・モード機能も持っています。そのため入力電圧 ＞ 出力電圧となっても大丈夫です（入力最大５．５Ｖまで） 
+
+◆仕様 
+　・方式：ブーストコンバータ 
+　・入力電圧範囲：ＤＣ０．３Ｖ～５．５Ｖ（起動電圧約０．４Ｖ） 
+　・出力電圧：３．３Ｖまたは５．０Ｖ（ジャンパーでどちらか選択）
+　・スイッチング周波数：約１．５ＭＨｚ 
+　・サイズ：約１３ｍｍｘ１８ｍｍ　厚さ：約３ｍｍ 
+　・負荷側を切り離すことができるシャットダウン機能内蔵 
+　・突入電流低減機能（スロースタート機能） 
+　・RoHS対応　鉛フリー　金フラッシュ処理 
+　・MADE IN JAPAN(日本製)　自動ラインによる組み立てで品質も安定しています。 
+　※詳しくは下記説明書をご覧ください。 
+
+◎モジュールは組み立て済み完成品です。配線するだけで簡単にお使いいただけます。 
+
+※０．３ＶではＤＣ－ＤＣコンバータは起動することができません。０．４Ｖ以上で一度ＤＣ－ＤＣコンバータが起動したあと０．３Ｖまで電源電圧が低下しても動作を続けることができます。０．３Ｖでは昇圧比が１０倍以上ありますので、損失を含めて入力側は２０倍以上の電流が必要です。 
+※入力が１．５Ｖ～２．４Ｖくらいなら効率は７０～９０％程度です。変換効率を気にされる方は最低電圧0.85Vで効率９０％を超える #12001 の方がお勧めです。 
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS61200-STRAWBERRY-LINUX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;" package="TPS61200-STRAWBERRY-LINUX">
+<connects>
+<connect gate="G$1" pin="VIN+" pad="VIN+"/>
+<connect gate="G$1" pin="VIN-" pad="VIN-"/>
+<connect gate="G$1" pin="VOUT+" pad="VOUT+"/>
+<connect gate="G$1" pin="VOUT-" pad="VOUT-"/>
+</connects>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2735-STRAWBERRY-LINUX">
+<description>Strawberry-linux&lt;br&gt;
+DC-DC convertor module
+&lt;br&gt;
+&lt;b&gt;LM2735&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://strawberry-linux.com/catalog/items?code=12004"&gt;link&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
