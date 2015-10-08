@@ -122,6 +122,8 @@ This is a kind of 3G RF modeule.
 <pin name="GND@1" x="-2.54" y="2.54" visible="pin" length="short" direction="pwr" swaplevel="1"/>
 <pin name="GND@2" x="22.86" y="2.54" visible="pin" length="short" direction="pwr" swaplevel="1" rot="R180"/>
 <pin name="EX_POW" x="22.86" y="5.08" visible="pin" length="short" direction="pwr" swaplevel="1" rot="R180"/>
+<text x="0" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -138,7 +140,7 @@ This is a kind of 3G RF modeule.
 <gate name="G$1" symbol="3GIM" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
-<device name="U" package="3GIM">
+<device name="" package="3GIM">
 <connects>
 <connect gate="G$1" pin="EX_POW" pad="P$8"/>
 <connect gate="G$1" pin="GND@1" pad="P$6"/>
