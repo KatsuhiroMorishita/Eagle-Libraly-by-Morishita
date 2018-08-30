@@ -141,10 +141,10 @@ DC-DC convertor module
 &lt;b&gt;LM2735&lt;/b&gt;
 &lt;br&gt;
 &lt;a href="https://strawberry-linux.com/catalog/items?code=12004"&gt;link&lt;/a&gt;</description>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
-<pad name="P$2" x="10.16" y="0" drill="0.8"/>
-<pad name="P$3" x="0" y="17.78" drill="0.8"/>
-<pad name="P$4" x="10.16" y="17.78" drill="0.8"/>
+<pad name="VIN" x="0" y="0" drill="0.8"/>
+<pad name="GND" x="10.16" y="0" drill="0.8"/>
+<pad name="SHUTDOWN" x="0" y="17.78" drill="0.8"/>
+<pad name="VOUT" x="10.16" y="17.78" drill="0.8"/>
 <wire x1="-1.27" y1="19.05" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-1.27" x2="11.43" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="11.43" y1="-1.27" x2="11.43" y2="19.05" width="0.127" layer="21"/>
@@ -221,16 +221,17 @@ DC-DC convertor module
 <text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="LM273.5-STRAWBERRY-LINUX">
+<symbol name="LM2735-STRAWBERRY-LINUX">
 <pin name="VIN+" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr" swaplevel="1"/>
-<pin name="GND" x="0" y="-10.16" visible="pin" length="short" direction="pwr" swaplevel="1" rot="R90"/>
-<pin name="VOUT+" x="12.7" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-7.62" y="-10.16" visible="pin" length="short" direction="pwr" swaplevel="1" rot="R90"/>
+<pin name="VOUT+" x="12.7" y="5.08" visible="pin" length="short" direction="pwr" swaplevel="1" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="SUTDOWN" x="12.7" y="-2.54" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -340,17 +341,73 @@ DC-DC convertor module
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2735-STRAWBERRY-LINUX">
+<deviceset name="LM2735-STRAWBERRY-LINUX" prefix="P">
 <description>Strawberry-linux&lt;br&gt;
 DC-DC convertor module
 &lt;br&gt;
 &lt;b&gt;LM2735&lt;/b&gt;
 &lt;br&gt;
-&lt;a href="https://strawberry-linux.com/catalog/items?code=12004"&gt;link&lt;/a&gt;</description>
+&lt;a href="https://strawberry-linux.com/catalog/items?code=12004"&gt;link&lt;/a&gt;
+
+
+&lt;br&gt;
+
+&lt;img src="https://strawberry-linux.com/thumb/lm2735-g.jpg"&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Summary by WEB&lt;/b&gt;
+&lt;p&gt;
+■ナショナルセミコンダクタ（現在テキサス・インスツルメンツに買収されました）の新製品 LM2735 を採用した超小型DC-DCコンバータモジュールです。 
+■3mmx3mmパッケージ（写真５枚目） 
+■ＤＣ２．７Ｖ～５．５Ｖの電圧をＤＣ５Ｖから２０Ｖ（最大２４Ｖ）の範囲に昇圧できます。 
+■出力電圧は基板上の超小型ボリュームで好きな電圧に調整ができます。 
+■負荷電流は出力１２Ｖで５００ｍＡ以上（６Ｗ以上の電力）取ることができます（入力５．０Ｖの場合） 
+■小型ながら放熱に優れたパッケージを採用していますので、大電流でも安定しています。 
+■出力12V200mA(2.4W出力,入力5V)での効率は約９２％（実測値）と非常に高い効率を実現 
+■あえてスイッチング周波数を520kHzにすることで低負荷での効率が1.6MHz品と比べて約１０％良くなっています。 
+■ＩＣのサイズを生かし、放熱も考慮した超小型 約１３ｘ２０ｍｍ　最大高はわずか５ｍｍ 
+◎こんな用途におすすめ！ 
+　・白色ＬＥＤの昇圧回路 
+　・ＬＣＤ／有機ＥＬの駆動電源 
+　・フラッシュメモリやマイコンの書き込み電圧 
+　・FETのドライブ電源、バイアス電源 
+　・モバイル機器、移動機器の試作　など 
+
+■仕様 
+・方式：ブーストコンバータ 
+・入力電圧：２．７Ｖ～５．５Ｖ　（３～５Ｖ系の電源で動作します）
+・出力電圧：５．０Ｖ～２０Ｖ可変型（最大は２４Ｖまで）※基板上のボリュームで任意電圧に調整できます。 
+・出力電流の目安（詳細は説明書・アプリケーションノートをご覧ください） 
+　・８００ｍＡ　出力９Ｖ，入力５Ｖ 
+　・６００ｍＡ　出力１２Ｖ，入力５Ｖ 
+　・２００ｍＡ　出力２４Ｖ，入力５Ｖ 
+　・８００ｍＡ　出力５Ｖ，入力３．３Ｖ 
+　・３００ｍＡ　出力１２Ｖ，入力３．３Ｖ 
+　※通過電力が大きい場合は放熱が必要です。 
+・出力リップル：数10mVp-p～最大負荷(8W出力)でも0.2Vp-p程度と小さい 
+
+・入出力間のアイソレートはされません。 
+・スイッチング周波数：５２０ｋＨｚ固定 
+・基板サイズ：約１３ｘ２０ｍｍ　厚さ５ｍｍ 重さ：約１．７ｇ 
+・RoHS対応　鉛フリー　金フラッシュ端子 
+・シャットダウン機能あり 
+・突入電流低減機能（スロースタート機能） 
+・効率は約８５～９２％程度（写真のグラフが実測したものです） 
+
+◎モジュールは組み立て済み完成品で配線するだけで簡単にお使いいただけます。詳しくは下記説明書をご覧ください。 
+◎DC-DCコンバータは部品・パターン・配線の引き回しで性能が大きく変わります。同じＩＣでも蛇の目基板やブレッドボードに組んだのではまともに動作しませんので、このようなモジュール品をお勧めしています。 
+◎開発中に別電源が必要になった…，ケースに入る余裕がない…といった場合にも重宝します。 
+&lt;/p&gt;</description>
 <gates>
+<gate name="G$1" symbol="LM2735-STRAWBERRY-LINUX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="LM2375-STRAWBERRY-LINUX">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VIN+" pad="VIN"/>
+<connect gate="G$1" pin="VOUT+" pad="VOUT"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
