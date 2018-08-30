@@ -359,7 +359,7 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER1" uservalue="yes">
+<deviceset name="POWER1">
 <gates>
 <gate name="G$1" symbol="PGND" x="0" y="0"/>
 </gates>
@@ -371,7 +371,7 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER2" uservalue="yes">
+<deviceset name="POWER2">
 <gates>
 <gate name="G$1" symbol="PGND" x="0" y="0"/>
 </gates>
