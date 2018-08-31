@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -203,19 +203,12 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 <text x="2.54" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCC4" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="AVCC">
+<symbol name="VCC5">
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="3.81" x2="1.27" y2="2.54" width="0.254" layer="94"/>
 <text x="-2.667" y="4.445" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="AVCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-<symbol name="-AVCC">
-<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<text x="-2.667" y="-5.715" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="-AVCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="AGND2" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -373,9 +366,9 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVCC">
+<deviceset name="POWER1" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="AVCC" x="0" y="0"/>
+<gate name="G$1" symbol="PGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -385,9 +378,9 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="-AVCC">
+<deviceset name="POWER2" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="-AVCC" x="0" y="0"/>
+<gate name="G$1" symbol="PGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
