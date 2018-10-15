@@ -244,7 +244,7 @@ Producted by TEXAS INSTRUMENTS</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TC74HC4066" prefix="U">
+<deviceset name="TC74HC4066">
 <description>TC74HC4066AP/AF/AFTM&lt;br&gt;
 &lt;p&gt;
 TC74HC4066Aは､シリコンゲートCMOS技術を用いた高速

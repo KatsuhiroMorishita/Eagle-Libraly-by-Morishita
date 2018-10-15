@@ -113,29 +113,6 @@ TEXAS INSTRUMENTS 's plastic small-outline package</description>
 <text x="5.485" y="-2.635" size="1.27" layer="21" font="vector" ratio="14" rot="R90">&gt;NAME</text>
 <rectangle x1="-1.8" y1="1.6" x2="1.8" y2="2.2" layer="21"/>
 </package>
-<package name="14DIP">
-<description>14 pin DIP</description>
-<pad name="P1" x="-3.81" y="7.62" drill="0.8"/>
-<pad name="P2" x="-3.81" y="5.08" drill="0.8"/>
-<pad name="P3" x="-3.81" y="2.54" drill="0.8"/>
-<pad name="P4" x="-3.81" y="0" drill="0.8"/>
-<pad name="P5" x="-3.81" y="-2.54" drill="0.8"/>
-<pad name="P6" x="-3.81" y="-5.08" drill="0.8"/>
-<pad name="P7" x="-3.81" y="-7.62" drill="0.8"/>
-<pad name="P8" x="3.81" y="-7.62" drill="0.8"/>
-<pad name="P9" x="3.81" y="-5.08" drill="0.8"/>
-<pad name="P10" x="3.81" y="-2.54" drill="0.8"/>
-<pad name="P11" x="3.81" y="0" drill="0.8"/>
-<pad name="P12" x="3.81" y="2.54" drill="0.8"/>
-<pad name="P13" x="3.81" y="5.08" drill="0.8"/>
-<pad name="P14" x="3.81" y="7.62" drill="0.8"/>
-<wire x1="-4.918" y1="8.728" x2="4.918" y2="8.728" width="0.1524" layer="21"/>
-<wire x1="4.918" y1="8.728" x2="4.918" y2="-8.728" width="0.1524" layer="21"/>
-<wire x1="4.918" y1="-8.728" x2="-4.918" y2="-8.728" width="0.1524" layer="21"/>
-<wire x1="-4.918" y1="-8.728" x2="-4.918" y2="8.728" width="0.1524" layer="21"/>
-<text x="-4.918" y="9.02433125" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.918" y="-10.80233125" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="TS3A5017">
@@ -163,21 +140,20 @@ TEXAS INSTRUMENTS 's plastic small-outline package</description>
 <pin name="1S2" x="10.16" y="10.16" length="short" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="TC74HC4066">
-<description>TOSHIBA TCHC4066AP/AF/AFT</description>
-<pin name="1C" x="-2.54" y="22.86" length="short" swaplevel="1"/>
-<pin name="2C" x="-2.54" y="17.78" length="short" swaplevel="1"/>
-<pin name="3C" x="-2.54" y="12.7" length="short" swaplevel="1"/>
-<pin name="4C" x="-2.54" y="7.62" length="short" swaplevel="1"/>
-<pin name="1I/O" x="17.78" y="22.86" length="short" swaplevel="2" rot="R180"/>
-<pin name="1O/I" x="17.78" y="20.32" length="short" swaplevel="2" rot="R180"/>
-<pin name="2I/O" x="17.78" y="17.78" length="short" swaplevel="2" rot="R180"/>
-<pin name="2O/I" x="17.78" y="15.24" length="short" swaplevel="2" rot="R180"/>
-<pin name="3I/O" x="17.78" y="12.7" length="short" swaplevel="2" rot="R180"/>
-<pin name="3O/I" x="17.78" y="10.16" length="short" swaplevel="2" rot="R180"/>
-<pin name="4I/O" x="17.78" y="7.62" length="short" swaplevel="2" rot="R180"/>
-<pin name="4O/I" x="17.78" y="5.08" length="short" swaplevel="2" rot="R180"/>
+<pin name="1C" x="-2.54" y="22.86" length="short"/>
+<pin name="2C" x="-2.54" y="17.78" length="short"/>
+<pin name="3C" x="-2.54" y="12.7" length="short"/>
+<pin name="4C" x="-2.54" y="7.62" length="short"/>
+<pin name="1I/O" x="17.78" y="22.86" length="short" rot="R180"/>
+<pin name="1O/I" x="17.78" y="20.32" length="short" rot="R180"/>
+<pin name="2I/O" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="2O/I" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="3I/O" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="3O/I" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="4I/O" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="4O/I" x="17.78" y="5.08" length="short" rot="R180"/>
 <pin name="VCC" x="17.78" y="27.94" length="short" rot="R180"/>
-<pin name="GND" x="-2.54" y="2.54" length="short" swaplevel="1"/>
+<pin name="GND" x="-2.54" y="2.54" length="short"/>
 <wire x1="0" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="30.48" x2="15.24" y2="0" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
@@ -237,50 +213,6 @@ Producted by TEXAS INSTRUMENTS</description>
 <connect gate="G$1" pin="IN1" pad="14"/>
 <connect gate="G$1" pin="IN2" pad="2"/>
 <connect gate="G$1" pin="V+" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TC74HC4066" prefix="U">
-<description>TC74HC4066AP/AF/AFTM&lt;br&gt;
-&lt;p&gt;
-TC74HC4066Aは､シリコンゲートCMOS技術を用いた高速
-CMOSアナログスイッチです。CMOSの特長である低い消費電流で､
-アナログあるいはデジタル信号の高速スイッチングが可能です。
-コントロール入力C が “H” レベルの場合､スイッチは導通し､
-“L” レベルの場合､非導通となります。
-&lt;/p&gt;
-
-特 長&lt;br&gt;
-• 高速スイッチング : tpd = 7 ns (標準) (VCC = 5 V)&lt;br&gt;
-• 低消費電流 : ICC = 1 μA (最大) (Ta = 25°C)&lt;br&gt;
-• 高雑音余裕度 : VNIH = VNIL = 28% VCC (最小)&lt;br&gt;
-• 低オン抵抗 : RON = 50 Ω (標準) (VCC = 9 V)&lt;br&gt;
-• 低歪率 : THD = 0.05% (標準) (VCC = 5 V)&lt;br&gt;
-• B シリーズCMOS4066B と同一ピン接続､同一ファンクション&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="TC74HC4066" x="0" y="0"/>
-</gates>
-<devices>
-<device name="AP" package="14DIP">
-<connects>
-<connect gate="G$1" pin="1C" pad="P13"/>
-<connect gate="G$1" pin="1I/O" pad="P1"/>
-<connect gate="G$1" pin="1O/I" pad="P2"/>
-<connect gate="G$1" pin="2C" pad="P5"/>
-<connect gate="G$1" pin="2I/O" pad="P4"/>
-<connect gate="G$1" pin="2O/I" pad="P3"/>
-<connect gate="G$1" pin="3C" pad="P6"/>
-<connect gate="G$1" pin="3I/O" pad="P8"/>
-<connect gate="G$1" pin="3O/I" pad="P9"/>
-<connect gate="G$1" pin="4C" pad="P12"/>
-<connect gate="G$1" pin="4I/O" pad="P11"/>
-<connect gate="G$1" pin="4O/I" pad="P10"/>
-<connect gate="G$1" pin="GND" pad="P7"/>
-<connect gate="G$1" pin="VCC" pad="P14"/>
 </connects>
 <technologies>
 <technology name=""/>
