@@ -39,7 +39,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -173,6 +173,25 @@ DC-DC convertor module
 <text x="7.62" y="-2.54" size="1.27" layer="21">GND</text>
 <text x="7.62" y="19.05" size="1.27" layer="21">Vout+</text>
 <text x="-1.27" y="19.05" size="1.27" layer="21">Shutdown</text>
+</package>
+<package name="LT3439-STRAWBERRY-LINUX">
+<wire x1="0" y1="0" x2="0" y2="22.86" width="0.1524" layer="21"/>
+<wire x1="0" y1="22.86" x2="72.04" y2="22.86" width="0.1524" layer="21"/>
+<wire x1="72.04" y1="22.86" x2="72.04" y2="0" width="0.1524" layer="21"/>
+<wire x1="72.04" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<pad name="P$1" x="69.04" y="20.32" drill="1"/>
+<pad name="P$2" x="69.04" y="17.78" drill="1"/>
+<pad name="P$3" x="69.04" y="15.24" drill="1"/>
+<pad name="P$4" x="69.04" y="12.7" drill="1"/>
+<pad name="P$5" x="69.04" y="10.16" drill="1"/>
+<pad name="P$6" x="69.04" y="7.62" drill="1"/>
+<pad name="P$7" x="69.04" y="5.08" drill="1"/>
+<pad name="P$8" x="69.04" y="2.54" drill="1"/>
+<pad name="P$9" x="3" y="20.32" drill="1"/>
+<pad name="P$10" x="3" y="17.78" drill="1"/>
+<pad name="P$11" x="3" y="5.08" drill="1"/>
+<pad name="P$12" x="3" y="2.54" drill="1"/>
+<hole x="38.88198125" y="11.43" drill="3.2"/>
 </package>
 </packages>
 <symbols>
@@ -425,6 +444,25 @@ DC-DC convertor module
 <connect gate="G$1" pin="SHUTDOWN" pad="SHUTDOWN"/>
 <connect gate="G$1" pin="VIN+" pad="VIN"/>
 <connect gate="G$1" pin="VOUT+" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT3439-STRAWBERRY-LINUX" prefix="P">
+<gates>
+<gate name="G$1" symbol="LT3439-STRAWBERRY-LINUX" x="0" y="0" swaplevel="2"/>
+</gates>
+<devices>
+<device name="" package="LT3439-STRAWBERRY-LINUX">
+<connects>
+<connect gate="G$1" pin="+OUT" pad="P$1 P$2"/>
+<connect gate="G$1" pin="-OUT" pad="P$7 P$8"/>
+<connect gate="G$1" pin="GND_IN" pad="P$9 P$10"/>
+<connect gate="G$1" pin="GND_OUT" pad="P$3 P$4 P$5 P$6"/>
+<connect gate="G$1" pin="VIN" pad="P$11 P$12"/>
 </connects>
 <technologies>
 <technology name=""/>

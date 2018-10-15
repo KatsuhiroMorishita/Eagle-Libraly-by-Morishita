@@ -452,6 +452,42 @@ DC-DC convertor module
 </devices>
 </deviceset>
 <deviceset name="LT3439-STRAWBERRY-LINUX" prefix="P">
+<description>Strawberry-linux&lt;br&gt;
+DC-DC convertor module
+&lt;br&gt;
+&lt;b&gt;LT3439&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://strawberry-linux.com/catalog/items?code=12039"&gt;link&lt;/a&gt;
+&lt;br&gt;
+
+&lt;img src="https://strawberry-linux.com/images/lt3439-connect.jpg" width=500&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Summary by WEB&lt;/b&gt;
+&lt;p&gt;
+■リニアテクノロジーの超ローノイズコンバータを採用した電源モジュールです。 &lt;br&gt;
+■このモジュールは汎用的な５Ｖの電源から超ローノイズな±12Vを得ることができます。 &lt;br&gt;
+■LT3439はスルーレートコントロールされた高周波ノイズが少ないスイッチング回路です。 &lt;br&gt;
+■シリーズレギュレータに匹敵あるいはそれ以上の低ノイズ電源をスイッチングで実現しました。単電源から両電源を得られるので高精度オペアンプの電源、フォトダイオードアンプ、Ａ／Ｄ・Ｄ／Ａコンバータ，ハイファイオーディオ、物理測定などの電源に最適です。このクラスの製品は市販品ではないか、特注生産です。 &lt;br&gt;
+■市販のコンバータではノイズはmVの単位ですが、このモジュールは数10μVp-pと1/100以下です。 &lt;br&gt;
+■両電源は商用電源からトランスを用いたり、あるいは２つの乾電池を使って実現すればノイズ的には大変良好ですが、トランスが重いとか、電池の残量を気にしないといけないなど不便なところもあります。 &lt;br&gt;
+■この製品は5Vで動作するようになっていますのでUSBなどのPCノイズが多い電源や、マイコンなどのロジック電源などからクリーンなアナログ用電源を得ることができます。 &lt;br&gt;
+■出力は±12Vで安定化されていますから、精密オペアンプやヘッドフォンアンプの電源に最適です。レギュレーションもよく無負荷から全負荷までほとんど電圧が変動しません。 &lt;br&gt;
+■実測したノイズレベルは下の通りです。 &lt;br&gt;
+■この電源モジュールのためにトランスを特注で作ってもらいました。小さくて高性能を実現しています。また高価な導電性高分子コンデンサもたくさん搭載しています。 &lt;br&gt;
+●大量在庫品ですので数１００台でも即納できます。 &lt;br&gt;
+&lt;br&gt;
+◆仕様 &lt;br&gt;
+　・コンバータＩＣ：LT3439 &lt;br&gt;
+　・入力電圧：DC5V(4.5V～5.5V) &lt;br&gt;
+　・出力電圧：±12V &lt;br&gt;
+　・出力電流：正負各80mA (100mAmax)　合計2Wクラス &lt;br&gt;
+　・絶縁の有無：絶縁有 &lt;br&gt;
+　・スイッチング周波数：約80kHz &lt;br&gt;
+　・基板サイズ：23x72mm &lt;br&gt;
+　・絶縁抵抗：220MΩ以上 250VDC &lt;br&gt;
+　・ノイズレベル：約20μVrms (マイナス側約30μVrms) &lt;br&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LT3439-STRAWBERRY-LINUX" x="0" y="0" swaplevel="2"/>
 </gates>

@@ -258,11 +258,11 @@ DC-DC convertor module
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.1524" layer="94"/>
-<pin name="VIN" x="-15.24" y="5.08" length="short" swaplevel="1"/>
-<pin name="GND_IN" x="-15.24" y="-5.08" length="short" swaplevel="1"/>
-<pin name="+OUT" x="15.24" y="5.08" length="short" swaplevel="2" rot="R180"/>
-<pin name="GND_OUT" x="15.24" y="0" length="short" swaplevel="2" rot="R180"/>
-<pin name="-OUT" x="15.24" y="-5.08" length="short" swaplevel="2" rot="R180"/>
+<pin name="VIN" x="-15.24" y="5.08" visible="pin" length="short" swaplevel="1"/>
+<pin name="GND_IN" x="-15.24" y="-5.08" visible="pin" length="short" swaplevel="1"/>
+<pin name="+OUT" x="15.24" y="5.08" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="GND_OUT" x="15.24" y="0" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="-OUT" x="15.24" y="-5.08" visible="pin" length="short" swaplevel="2" rot="R180"/>
 <text x="-12.7" y="-10.16" size="1.778" layer="94">&gt;NAME</text>
 <text x="-12.7" y="-12.7" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
