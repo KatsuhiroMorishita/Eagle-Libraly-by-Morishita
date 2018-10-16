@@ -108,24 +108,7 @@
 <description>&lt;b&gt;
 54F/74F373&lt;br&gt;
 Octal Transparent Latch with TRI-STATE Outputs
-&lt;/b&gt;
-
-General Description&lt;br&gt;
-&lt;p&gt;
-The 'F373 consists of eight latches with TRI-STATE outputs
-for bus organized system applications. The flip-flops appear
-transparent to the data when Latch Enable (LE) is HIGH.
-When LE is LOW, the data that meets the setup times is
-latched. Data appears on the bus when the Output Enable
-(OE) is LOW. When OE is HIGH the bus output is in the high
-impedance state.
-&lt;/p&gt;
-&lt;br&gt;
-
-Features&lt;br&gt;
-- Eight latches in a single package&lt;br&gt;
-- TRI-STATE outputs for bus interfacing&lt;br&gt;
-- Guaranteed 4000V minimum ESD protection&lt;br&gt;</description>
+&lt;/b&gt;</description>
 <pin name="D0" x="-2.54" y="25.4" length="short" swaplevel="2"/>
 <pin name="D1" x="-2.54" y="22.86" length="short" swaplevel="2"/>
 <pin name="D2" x="-2.54" y="20.32" length="short" swaplevel="2"/>
@@ -154,6 +137,27 @@ Features&lt;br&gt;
 </symbols>
 <devicesets>
 <deviceset name="74F373" prefix="U">
+<description>&lt;b&gt;
+54F/74F373&lt;br&gt;
+Octal Transparent Latch with TRI-STATE Outputs
+&lt;/b&gt;
+
+General Description&lt;br&gt;
+&lt;p&gt;
+The 'F373 consists of eight latches with TRI-STATE outputs
+for bus organized system applications. The flip-flops appear
+transparent to the data when Latch Enable (LE) is HIGH.
+When LE is LOW, the data that meets the setup times is
+latched. Data appears on the bus when the Output Enable
+(OE) is LOW. When OE is HIGH the bus output is in the high
+impedance state.
+&lt;/p&gt;
+&lt;br&gt;
+
+Features&lt;br&gt;
+- Eight latches in a single package&lt;br&gt;
+- TRI-STATE outputs for bus interfacing&lt;br&gt;
+- Guaranteed 4000V minimum ESD protection&lt;br&gt;</description>
 <gates>
 <gate name="G$1" symbol="74F373" x="0" y="0"/>
 </gates>
