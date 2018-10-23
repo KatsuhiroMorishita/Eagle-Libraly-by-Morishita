@@ -131,36 +131,36 @@
 <symbols>
 <symbol name="NUCLEO-F303K8">
 <description>STM32 Nucleo-32 development board with STM32F303K8 MCU, supports Arduino connectivity</description>
-<pin name="PA9/D1" x="-2.54" y="38.1" length="short" swaplevel="2"/>
-<pin name="PA10/D0" x="-2.54" y="35.56" length="short" swaplevel="2"/>
-<pin name="NRST@1" x="-2.54" y="33.02" length="short" swaplevel="2"/>
-<pin name="GND@1" x="-2.54" y="30.48" length="short" swaplevel="2"/>
-<pin name="PA12/D2" x="-2.54" y="27.94" length="short" swaplevel="2"/>
-<pin name="PB0/D3" x="-2.54" y="25.4" length="short" swaplevel="2"/>
-<pin name="PB7/D4" x="-2.54" y="22.86" length="short" swaplevel="2"/>
-<pin name="PB6/D5" x="-2.54" y="20.32" length="short" swaplevel="2"/>
-<pin name="PB1/D6" x="-2.54" y="17.78" length="short" swaplevel="2"/>
-<pin name="PF1/D8" x="-2.54" y="12.7" length="short" swaplevel="2"/>
-<pin name="PA8/D9" x="-2.54" y="10.16" length="short" swaplevel="2"/>
-<pin name="PA11/D10" x="-2.54" y="7.62" length="short" swaplevel="2"/>
-<pin name="PB5/D11" x="-2.54" y="5.08" length="short" swaplevel="2"/>
-<pin name="PB4/D12" x="-2.54" y="2.54" length="short" swaplevel="2"/>
-<pin name="PB3/D13" x="30.48" y="2.54" length="short" swaplevel="2" rot="R180"/>
-<pin name="3V3" x="30.48" y="5.08" length="short" swaplevel="2" rot="R180"/>
-<pin name="AREF" x="30.48" y="7.62" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA0/A0" x="30.48" y="10.16" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA1/A1" x="30.48" y="12.7" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA3/A2" x="30.48" y="15.24" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA4/A3" x="30.48" y="17.78" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA5/A4" x="30.48" y="20.32" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA6/A5" x="30.48" y="22.86" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA7/A6" x="30.48" y="25.4" length="short" swaplevel="2" rot="R180"/>
-<pin name="PA2/A7" x="30.48" y="27.94" length="short" swaplevel="2" rot="R180"/>
-<pin name="5V" x="30.48" y="30.48" length="short" swaplevel="2" rot="R180"/>
-<pin name="NRST@2" x="30.48" y="33.02" length="short" swaplevel="2" rot="R180"/>
-<pin name="GND@2" x="30.48" y="35.56" length="short" swaplevel="2" rot="R180"/>
-<pin name="PF0/D7" x="-2.54" y="15.24" length="short" swaplevel="2"/>
-<pin name="VIN" x="30.48" y="38.1" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA9/D1" x="-2.54" y="38.1" visible="pin" length="short" swaplevel="2"/>
+<pin name="PA10/D0" x="-2.54" y="35.56" visible="pin" length="short" swaplevel="2"/>
+<pin name="NRST@1" x="-2.54" y="33.02" visible="pin" length="short" swaplevel="2"/>
+<pin name="GND@1" x="-2.54" y="30.48" visible="pin" length="short" swaplevel="2"/>
+<pin name="PA12/D2" x="-2.54" y="27.94" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB0/D3" x="-2.54" y="25.4" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB7/D4" x="-2.54" y="22.86" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB6/D5" x="-2.54" y="20.32" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB1/D6" x="-2.54" y="17.78" visible="pin" length="short" swaplevel="2"/>
+<pin name="PF1/D8" x="-2.54" y="12.7" visible="pin" length="short" swaplevel="2"/>
+<pin name="PA8/D9" x="-2.54" y="10.16" visible="pin" length="short" swaplevel="2"/>
+<pin name="PA11/D10" x="-2.54" y="7.62" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB5/D11" x="-2.54" y="5.08" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB4/D12" x="-2.54" y="2.54" visible="pin" length="short" swaplevel="2"/>
+<pin name="PB3/D13" x="30.48" y="2.54" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="3V3" x="30.48" y="5.08" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="AREF" x="30.48" y="7.62" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA0/A0" x="30.48" y="10.16" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA1/A1" x="30.48" y="12.7" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA3/A2" x="30.48" y="15.24" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA4/A3" x="30.48" y="17.78" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA5/A4" x="30.48" y="20.32" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA6/A5" x="30.48" y="22.86" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA7/A6" x="30.48" y="25.4" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PA2/A7" x="30.48" y="27.94" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="5V" x="30.48" y="30.48" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="NRST@2" x="30.48" y="33.02" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="GND@2" x="30.48" y="35.56" visible="pin" length="short" swaplevel="2" rot="R180"/>
+<pin name="PF0/D7" x="-2.54" y="15.24" visible="pin" length="short" swaplevel="2"/>
+<pin name="VIN" x="30.48" y="38.1" visible="pin" length="short" swaplevel="2" rot="R180"/>
 <text x="2.54" y="-2.54" size="1.778" layer="94">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0" y2="40.64" width="0.1524" layer="94"/>
