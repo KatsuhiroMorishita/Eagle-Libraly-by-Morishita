@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -114,13 +114,13 @@
 <wire x1="3.71" y1="39.07" x2="11.53" y2="39.07" width="0.1524" layer="21"/>
 <wire x1="11.53" y1="39.07" x2="11.53" y2="44.45" width="0.1524" layer="21"/>
 <text x="3.81" y="39.37" size="1.2" layer="21">microUSB</text>
-<text x="1.27" y="29.845" size="1.2" layer="21">GND</text>
+<text x="1.27" y="27.305" size="1.2" layer="21">GND</text>
 <text x="10.16" y="32.385" size="1.2" layer="21">GND</text>
 <text x="11.43" y="27.305" size="1.2" layer="21">5V</text>
-<text x="11.43" y="4.445" size="1.2" layer="21">3v3</text>
-<text x="9.525" y="6.985" size="1.2" layer="21">AREF</text>
+<text x="11.43" y="1.905" size="1.2" layer="21">3v3</text>
+<text x="9.525" y="4.445" size="1.2" layer="21">AREF</text>
 <text x="11.43" y="34.925" size="1.2" layer="21">VIN</text>
-<text x="1.27" y="32.385" size="1.2" layer="21">NRST</text>
+<text x="1.27" y="29.845" size="1.2" layer="21">NRST</text>
 <text x="9.525" y="29.845" size="1.2" layer="21">NRST</text>
 <pad name="P$29" x="15.24" y="33.02" drill="0.8"/>
 <pad name="P$30" x="15.24" y="35.56" drill="0.8"/>

@@ -170,7 +170,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NUCLEO-F303K8">
+<deviceset name="NUCLEO-F303K8" prefix="M">
 <gates>
 <gate name="G$1" symbol="NUCLEO-F303K8" x="0" y="0" swaplevel="2"/>
 </gates>
