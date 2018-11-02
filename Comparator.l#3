@@ -178,7 +178,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="NJM319" prefix="U">
+<deviceset name="NJM319" prefix="U" uservalue="yes">
 <description>&lt;b&gt;NJM319&lt;/b&gt;&lt;br&gt;
 高速コンパレータ&lt;br&gt;
 &lt;a href="http://akizukidenshi.com/catalog/g/gI-10083/"&gt;datasheet&lt;/a&gt;</description>

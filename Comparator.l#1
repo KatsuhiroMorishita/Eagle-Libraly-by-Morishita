@@ -152,9 +152,9 @@
 <pin name="B-INPUT" x="-15.24" y="-7.62" length="short" swaplevel="1"/>
 <pin name="V+" x="17.78" y="10.16" length="short" rot="R180"/>
 <pin name="A_OUTPUT" x="17.78" y="2.54" length="short" swaplevel="1" rot="R180"/>
-<text x="7.62" y="-17.78" size="1.778" layer="94">&gt;NAME</text>
-<text x="-12.7" y="-17.78" size="1.778" layer="94">&gt;VALUE</text>
-<text x="-12.7" y="-20.32" size="1.778" layer="94">&gt;PART</text>
+<text x="7.62" y="-20.32" size="1.778" layer="94">&gt;NAME</text>
+<text x="7.62" y="-17.78" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="94">NJM319</text>
 </symbol>
 </symbols>
 <devicesets>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -138,20 +138,20 @@
 <description>&lt;b&gt;NJM319&lt;/b&gt;&lt;br&gt;
 高速コンパレータ&lt;br&gt;
 &lt;a href="http://akizukidenshi.com/catalog/g/gI-10083/"&gt;datasheet&lt;/a&gt;</description>
-<wire x1="-10.16" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<pin name="A_GND" x="-12.7" y="0" length="short"/>
-<pin name="A+INPUT" x="-12.7" y="5.08" length="short"/>
-<pin name="A-INPUT" x="-12.7" y="2.54" length="short"/>
+<wire x1="15.24" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="A_GND" x="-15.24" y="0" length="short" swaplevel="1"/>
+<pin name="A+INPUT" x="-15.24" y="5.08" length="short" swaplevel="1"/>
+<pin name="A-INPUT" x="-15.24" y="2.54" length="short" swaplevel="1"/>
 <pin name="V-" x="17.78" y="-12.7" length="short" rot="R180"/>
-<pin name="B_OUTPUT" x="17.78" y="-5.08" length="short" rot="R180"/>
-<pin name="B_GND" x="-12.7" y="-10.16" length="short"/>
-<pin name="B+INPUT" x="-12.7" y="-5.08" length="short"/>
-<pin name="B-INPUT" x="-12.7" y="-7.62" length="short"/>
+<pin name="B_OUTPUT" x="17.78" y="-5.08" length="short" swaplevel="1" rot="R180"/>
+<pin name="B_GND" x="-15.24" y="-10.16" length="short" swaplevel="1"/>
+<pin name="B+INPUT" x="-15.24" y="-5.08" length="short" swaplevel="1"/>
+<pin name="B-INPUT" x="-15.24" y="-7.62" length="short" swaplevel="1"/>
 <pin name="V+" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="A_OUTPUT" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="A_OUTPUT" x="17.78" y="2.54" length="short" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
