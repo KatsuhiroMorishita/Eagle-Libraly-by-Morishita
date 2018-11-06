@@ -45,6 +45,7 @@ CCDカメラ（CCD Camera）
 - GRM21
 - GRM32
 - TAJB
+- CKD(3端子貫通型積層セラミックチップコンデンサ)
 
 コンパレータ（Comparator）
 - MAX9062EUK
