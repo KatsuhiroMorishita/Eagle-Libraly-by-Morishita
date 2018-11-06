@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -76,13 +76,15 @@
 <vertex x="0" y="-1.27" curve="-90"/>
 </polygon>
 </package>
-<package name="GND-GNDA">
-<description>&lt;b&gt;Ground CONNECTOR&lt;/b&gt; display layer 53 btw. layer 54 to make copper (ROUTE) from GND to GNDA&lt;p&gt;
+<package name="GND-AGND">
+<description>&lt;b&gt;Ground CONNECTOR&lt;/b&gt; display layer 53 btw. layer 54 to make copper (ROUTE) from GND to AGND&lt;p&gt;
 Select also layer 53 btw. layer 54 in CAM-Job!</description>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="1.27" layer="53"/>
 <smd name="GND" x="-1.27" y="0" dx="1.27" dy="1.27" layer="1"/>
-<smd name="GNDA" x="1.27" y="0" dx="1.27" dy="1.27" layer="1"/>
+<smd name="AGND" x="1.27" y="0" dx="1.27" dy="1.27" layer="1"/>
 <rectangle x1="-0.6" y1="-0.635" x2="0.6" y2="0.635" layer="41"/>
+<wire x1="-1.3" y1="0" x2="1.3" y2="0" width="0.508" layer="1"/>
+<text x="-2.5" y="-1.6" size="0.8128" layer="21">GND JMP</text>
 </package>
 <package name="PGND-AGND-DGND">
 <pad name="AGND" x="0" y="1.27" drill="0.8"/>
@@ -163,7 +165,7 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 <text x="-2.667" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="PGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="GND-GNDA">
+<symbol name="GND-AGND">
 <wire x1="-4.445" y1="0" x2="-0.635" y2="0" width="0.254" layer="94"/>
 <wire x1="0.635" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-1.524" y2="2.54" width="0.1524" layer="94"/>
@@ -173,7 +175,7 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 <wire x1="-0.254" y1="2.794" x2="-0.762" y2="3.302" width="0.254" layer="94"/>
 <wire x1="0.254" y1="2.794" x2="0.762" y2="3.302" width="0.254" layer="94"/>
 <wire x1="0" y1="2.794" x2="0" y2="3.556" width="0.254" layer="94"/>
-<text x="0.508" y="-2.54" size="1.778" layer="96">GNDA</text>
+<text x="0.508" y="-2.54" size="1.778" layer="96">AGND</text>
 <text x="-6.096" y="-2.54" size="1.778" layer="96">GND</text>
 <pin name="GND" x="-2.54" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <pin name="GNDA" x="2.54" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
@@ -203,12 +205,19 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 <text x="2.54" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VCC4" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCC5">
+<symbol name="AVCC">
 <wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="3.81" x2="1.27" y2="2.54" width="0.254" layer="94"/>
 <text x="-2.667" y="4.445" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="AGND2" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="AVCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="-AVCC">
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<text x="-2.667" y="-5.715" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="-AVCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -325,16 +334,16 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND-GNDA" prefix="~NUDEV~">
+<deviceset name="GND-AGND" prefix="~NUDEV~">
 <description>&lt;b&gt;Example of GND--GNDA NET-Connetor&lt;/b&gt; for more info see description in package&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="GND-GNDA" x="0" y="0"/>
+<gate name="G$1" symbol="GND-AGND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="GND-GNDA">
+<device name="" package="GND-AGND">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GNDA" pad="GNDA"/>
+<connect gate="G$1" pin="GNDA" pad="AGND"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -366,9 +375,9 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER1" uservalue="yes">
+<deviceset name="AVCC">
 <gates>
-<gate name="G$1" symbol="PGND" x="0" y="0"/>
+<gate name="G$1" symbol="AVCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -378,9 +387,9 @@ Select also layer 53 btw. layer 54 in CAM-Job!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER2" uservalue="yes">
+<deviceset name="-AVCC">
 <gates>
-<gate name="G$1" symbol="PGND" x="0" y="0"/>
+<gate name="G$1" symbol="-AVCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
